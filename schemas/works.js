@@ -20,13 +20,18 @@ export default {
         type: 'string',
       },
       {
-        name: 'codeLink',
-        title: 'Code Link',
+        name: 'frontendCodeLink',
+        title: 'Frontend Code Link',
+        type: 'string',
+      },
+      {
+        name: 'backendCodeLink',
+        title: 'Backend Code Link',
         type: 'string',
       },
       {
         name: 'imgUrl',
-        title: 'ImageUrl',
+        title: 'ImgUrl',
         type: 'image',
         options: {
           hotspot: true,
